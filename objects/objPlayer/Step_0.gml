@@ -201,15 +201,21 @@ else
 	
 // animation
 if(!on_ground)
-{
+{// on-air
+	
+	// wall-climb
 	if(is_solid(inputX, 0)) { image_index = 4; image_speed = 0; }
-	else {image_index = 2; image_speed = 0; }	
+	// on-air
+	else { image_index = 2; image_speed = 0; }	
 }
+// look down
 else if(global.keyDown) { image_index = 5; image_speed = 0; }
+// look up
 else if(global.keyUp) { image_index = 6; image_speed = 0; }
+// idle
 else if( spdX == 0 || inputX == 0) { image_index = 0; image_speed = 0; }
 else 
-{ 
+{// moving horizontally
 	sprOffset += 0.25; if(sprOffset > 4) sprOffset = 0.0;
 	image_index = sprOffset % 4; 
 }
