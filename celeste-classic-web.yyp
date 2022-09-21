@@ -146,7 +146,7 @@
     {"folderPath":"folders/Objects.yy","order":17,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Control.yy","order":1,"resourceVersion":"1.0","name":"Control","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Player.yy","order":5,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Itens.yy","order":7,"resourceVersion":"1.0","name":"Itens","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Items.yy","order":7,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room.yy","order":9,"resourceVersion":"1.0","name":"Room","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room/Collision.yy","order":1,"resourceVersion":"1.0","name":"Collision","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms.yy","order":19,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
