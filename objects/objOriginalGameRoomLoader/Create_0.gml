@@ -32,7 +32,7 @@ layer_tileset = layer_get_id("Tileset");
 layer_back = layer_get_id("Back");
 
 
-// create layer tilemap
+// configure layer_tileset with tstCeleste tileset asset
 tilemap = layer_tilemap_create(layer_tileset, 0, 0, tstCeleste, 128, 128);
 
 
@@ -68,8 +68,12 @@ else
 			}
 			else 
 			{
+				// draw the cell using tstCelste at the i*8, j*8 pixel position
+				// on the map
 				tilemap_set_at_pixel(tilemap, tile, i*8, j*8);	
 			
+				// draw these invisible collision block helper
+				// to detect collision
 				if(maskTile == 2) instance_create_layer(i*8, j*8, "Middle", objBlock);
 				else if(maskTile == 3) instance_create_layer(i*8, j*8, "Middle", objBlockIce);
 				else if(maskTile == 4) instance_create_layer(i*8, j*8, "Middle", objSpikeDown);
